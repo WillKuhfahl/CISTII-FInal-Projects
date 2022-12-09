@@ -102,7 +102,7 @@ class Controller(QMainWindow, Ui_MainWindow):
 
     def calculate(self):
         """
-        Calculates and outputs the gpa of the user depending on their menu selection choice.
+        Calculates and outputs gpa of the user depending on their menu selection choice.
         :return: returns nothing
         """
         menu_selection = (self.comboBox.currentText())
